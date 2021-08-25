@@ -16,24 +16,24 @@ const connect = function () {
     console.log("Connected");    
 
 
-    for(let i = 0; i < 15; i++){
-      setTimeout(()=>{
-        conn.write('Move: up');
-        console.log("Move up");
-      }, 0+i*200);
-      setTimeout(()=>{
-        conn.write('Move: left')
-        console.log("Move left");
-      }, 500+i*200);
-      setTimeout(()=>{
-        conn.write('Move: down')
-        console.log("Move down");
-      }, 1000+i*200);      
-      setTimeout(()=>{
-        conn.write('Move: right')
-        console.log("Move right");
-      }, 1500+i*200);            
-    }
+    // for(let i = 0; i < 15; i++){
+    //   setTimeout(()=>{
+    //     conn.write('Move: up');
+    //     console.log("Move up");
+    //   }, 0+i*200);
+    //   setTimeout(()=>{
+    //     conn.write('Move: left')
+    //     console.log("Move left");
+    //   }, 500+i*200);
+    //   setTimeout(()=>{
+    //     conn.write('Move: down')
+    //     console.log("Move down");
+    //   }, 1000+i*200);      
+    //   setTimeout(()=>{
+    //     conn.write('Move: right')
+    //     console.log("Move right");
+    //   }, 1500+i*200);            
+    // }
 
   });
 
